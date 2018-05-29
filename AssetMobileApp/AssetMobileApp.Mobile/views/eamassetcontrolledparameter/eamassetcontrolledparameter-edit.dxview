@@ -1,0 +1,38 @@
+<div data-options="dxView : { name: 'eamAssetControlledParameterEdit', mode: 'edit', title: 'Eam asset controlled parameter' } " >
+    <div data-bind="dxCommand: { onExecute: handleSave, id: 'save', title: 'Save', icon: 'save' } "></div>
+    <div data-bind="dxCommand: { onExecute: handleCancel, id: 'cancel', behavior: 'back', title: 'Cancel', icon: 'close' }" ></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-edit-view dx-content-background dx-form-background" data-bind="dxDeferRendering: { showLoadIndicator: true, staggerItemSelector: '.dx-field', animation: 'edit-item-rendered', renderWhen: isReady }" >
+        <div data-bind="dxScrollView: { }">
+            <div class="dx-fieldset">
+                <div class="dx-field">
+                    <div class="dx-field-label">Oid: </div>
+                    <div class="dx-field-value" data-bind="dxTextBox: { value: eamassetcontrolledparameter.Oid, readOnly: true }"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">As string: </div>
+                    <div class="dx-field-value" data-bind="dxTextBox: { value: eamassetcontrolledparameter.AsString, placeholder: 'Enter As string' }"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Code: </div>
+                    <div class="dx-field-value" data-bind="dxTextBox: { value: eamassetcontrolledparameter.Code, placeholder: 'Enter Code' }"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Name: </div>
+                    <div class="dx-field-value" data-bind="dxTextBox: { value: eamassetcontrolledparameter.Name, placeholder: 'Enter Name' }"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Asset: </div>
+                    <div class="dx-field-value" data-bind="dxTextBox: { value: eamassetcontrolledparameter.Asset, placeholder: 'Enter Asset' }"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Controlled parameter: </div>
+                    <div class="dx-field-value" data-bind="dxTextBox: { value: eamassetcontrolledparameter.ControlledParameter, placeholder: 'Enter Controlled parameter' }"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Value: </div>
+                    <div class="dx-field-value" data-bind="dxNumberBox: { value: eamassetcontrolledparameter.Value, placeholder: 'Enter Value' }"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+<div data-options="dxView : { name: 'eamAssetControlledParameterDetails', title: 'Eam asset controlled parameter' } " >
+    <div data-bind="dxCommand: { onExecute: '#eamAssetControlledParameterEdit/{id}', direction: 'none', id: 'edit', title: 'Edit', icon: 'edit' }"></div>
+    <div data-bind="dxCommand: { onExecute: handleDelete, id: 'delete', title: 'Delete', icon: 'remove' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-detail-view dx-content-background" data-bind="dxDeferRendering: { showLoadIndicator: true, staggerItemSelector: 'dx-fieldset-header,.dx-field', animation: 'detail-item-rendered', renderWhen: isReady }" >
+        <div data-bind="dxScrollView: { }">
+            <div class="dx-fieldset">
+                <div class="dx-fieldset-header" data-bind="text: eamassetcontrolledparameter.Name"></div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Oid: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolledparameter.Oid"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">As string: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolledparameter.AsString"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Code: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolledparameter.Code"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Name: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolledparameter.Name"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Asset: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolledparameter.Asset"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Controlled parameter: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolledparameter.ControlledParameter"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Value: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolledparameter.Value"></div>
+                </div>
+            </div>
+            <div data-options="dxContentPlaceholder : { name: 'view-footer', animation: 'none' } " ></div>
+        </div>
+    </div>
+</div>

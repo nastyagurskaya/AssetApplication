@@ -1,0 +1,2 @@
+c:\users\nastyagurskaya\source\repos\AssetMobileApp\AssetMobileApp.Shared\obj\Debug\AssetMobileApp.Shared.dxjsprojResolveAssemblyReference.cache
+c:\users\nastyagurskaya\source\repos\AssetMobileApp\AssetMobileApp.Shared\obj\Debug\AssetMobileApp.Shared.dxjsproj.CoreCompileInputs.cache

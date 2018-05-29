@@ -1,0 +1,44 @@
+<div data-options="dxView : { name: 'eamAssetControlParamPointDetails', title: 'Eam asset control param point' } " >
+    <div data-bind="dxCommand: { onExecute: '#eamAssetControlParamPointEdit/{id}', direction: 'none', id: 'edit', title: 'Edit', icon: 'edit' }"></div>
+    <div data-bind="dxCommand: { onExecute: handleDelete, id: 'delete', title: 'Delete', icon: 'remove' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-detail-view dx-content-background" data-bind="dxDeferRendering: { showLoadIndicator: true, staggerItemSelector: 'dx-fieldset-header,.dx-field', animation: 'detail-item-rendered', renderWhen: isReady }" >
+        <div data-bind="dxScrollView: { }">
+            <div class="dx-fieldset">
+                <div class="dx-fieldset-header" data-bind="text: eamassetcontrolparampoint.Name"></div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Oid: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolparampoint.Oid"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">As string: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolparampoint.AsString"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Code: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolparampoint.Code"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Name: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolparampoint.Name"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Asset controlled parameter: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolparampoint.AssetControlledParameter"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Asset: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolparampoint.Asset"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Control point: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolparampoint.ControlPoint"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Value: </div>
+                    <div class="dx-field-value-static" data-bind="text: eamassetcontrolparampoint.Value"></div>
+                </div>
+            </div>
+            <div data-options="dxContentPlaceholder : { name: 'view-footer', animation: 'none' } " ></div>
+        </div>
+    </div>
+</div>

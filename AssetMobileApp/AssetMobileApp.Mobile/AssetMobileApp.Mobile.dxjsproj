@@ -1,0 +1,175 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b66509b6-f9ba-4ef9-b152-07dac1ee92b8</ProjectGuid>
+    <AutoAssignPort>True</AutoAssignPort>
+    <RunInSimulator>True</RunInSimulator>
+    <UploadPluginsToTheCourier>True</UploadPluginsToTheCourier>
+    <RootNamespace>AssetMobileApp</RootNamespace>
+    <ApplicationPage>index.html</ApplicationPage>
+    <Name>AssetMobileApp.Mobile</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="assetmobileapp.config.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="index.html" />
+    <Content Include="index.css" />
+    <Content Include="cordova.js" />
+    <None Include="config.xml" />
+    <Content Include="index.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="layouts\Navbar\NavbarLayout.css" />
+    <Content Include="layouts\Navbar\NavbarLayout.html" />
+    <Content Include="layouts\Navbar\NavbarLayout.js" />
+    <Content Include="layouts\Pivot\PivotLayout.css" />
+    <Content Include="layouts\Pivot\PivotLayout.html" />
+    <Content Include="layouts\Pivot\PivotLayout.js" />
+    <Content Include="layouts\SlideOut\SlideOutLayout.css" />
+    <Content Include="layouts\SlideOut\SlideOutLayout.html" />
+    <Content Include="layouts\SlideOut\SlideOutLayout.js" />
+    <Content Include="layouts\Empty\EmptyLayout.css" />
+    <Content Include="layouts\Empty\EmptyLayout.html" />
+    <Content Include="layouts\Empty\EmptyLayout.js" />
+    <Content Include="layouts\Simple\SimpleLayout.css" />
+    <Content Include="layouts\Simple\SimpleLayout.html" />
+    <Content Include="layouts\Simple\SimpleLayout.js" />
+    <Content Include="layouts\Popup\PopupLayout.css" />
+    <Content Include="layouts\Popup\PopupLayout.html" />
+    <Content Include="layouts\Popup\PopupLayout.js" />
+    <Content Include="layouts\Split\SplitLayout.css" />
+    <Content Include="layouts\Split\SplitLayout.html" />
+    <Content Include="layouts\Split\SplitLayout.js" />
+    <Content Include="views\eamassetcontrolledparameter\eamassetcontrolledparameter-details.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamassetcontrolledparameter\eamassetcontrolledparameter-details.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamassetcontrolledparameter\eamassetcontrolledparameter-edit.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamassetcontrolledparameter\eamassetcontrolledparameter-edit.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamassetcontrolledparameter\eamassetcontrolledparameter.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamassetcontrolledparameter\eamassetcontrolledparameter.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamassetcontrolparampoint\eamassetcontrolparampoint-details.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamassetcontrolparampoint\eamassetcontrolparampoint-details.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamassetcontrolparampoint\eamassetcontrolparampoint-edit.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamassetcontrolparampoint\eamassetcontrolparampoint-edit.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamassetcontrolparampoint\eamassetcontrolparampoint.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamassetcontrolparampoint\eamassetcontrolparampoint.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamasset\eamasset-details.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamasset\eamasset-details.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamasset\eamasset-edit.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamasset\eamasset-edit.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamasset\eamasset.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamasset\eamasset.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamcontrolparamjournalitem\eamcontrolparamjournalitem-details.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamcontrolparamjournalitem\eamcontrolparamjournalitem-details.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamcontrolparamjournalitem\eamcontrolparamjournalitem-edit.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamcontrolparamjournalitem\eamcontrolparamjournalitem-edit.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamcontrolparamjournalitem\eamcontrolparamjournalitem.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\eamcontrolparamjournalitem\eamcontrolparamjournalitem.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="js\" />
+    <Folder Include="layouts\" />
+    <Folder Include="layouts\Empty\" />
+    <Folder Include="layouts\Navbar\" />
+    <Folder Include="layouts\Pivot\" />
+    <Folder Include="layouts\Popup\" />
+    <Folder Include="layouts\Simple\" />
+    <Folder Include="layouts\SlideOut\" />
+    <Folder Include="layouts\Split\" />
+    <Folder Include="views\" />
+    <Folder Include="views\eamassetcontrolledparameter\" />
+    <Folder Include="views\eamassetcontrolparampoint\" />
+    <Folder Include="views\eamasset\" />
+    <Folder Include="views\eamcontrolparamjournalitem\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AssetMobileApp.Shared\AssetMobileApp.Shared.dxjsproj">
+      <Name>AssetMobileApp.Shared</Name>
+      <Project>{f8a5d4e2-f1bc-40f5-a42b-008986d0029a}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Target Name="ResolveReferences">
+    <Message Text="Copying references to output dir..." Importance="high" />
+    <MSBuild Targets="Build" Projects="@(ProjectReference)" Properties="OutputPath=$([System.IO.Path]::GetFullPath('$(OutputPath)'))">
+    </MSBuild>
+  </Target>
+  <Target Name="CopyFilesToOutputDirectory">
+    <Message Text="Copying files to output dir..." Importance="high" />
+    <Copy SourceFiles="@(Content)" DestinationFiles="@(Content-&gt;'$(OutputPath)$([MSBuild]::MakeRelative($(MSBuildProjectDirectory),'%(FullPath)'))')" />
+  </Target>
+  <Target Name="CoreCompile">
+    <!--<Message Text="'$(MSBuildToolsPath)'"></Message>-->
+    <!--<Message Text="'$(BuildingProject)'"></Message>-->
+    <!--<Message Text="Build JSProject '$(MSBuildProjectFile)':" Importance="high"></Message>-->
+    <!--<Message Text="Finished Build JSProject '$(MSBuildProjectFile)'." Importance="high"></Message>-->
+  </Target>
+  <Target Name="CreateManifestResourceNames" Condition="'@(ResxWithNoCulture)@(ResxWithCulture)@(NonResxWithNoCulture)@(NonResxWithCulture)'!=''" />
+  <Target Name="Clean">
+    <!--
+    <Message Text="Cleaning Output files..." Importance="high" />
+    <Delete Files="@([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+    -->
+    <Message Text="Cleaning Output dir ($([System.IO.Path]::GetFullPath('$(OutputPath)')))..." Importance="high" />
+    <RemoveDir Directories="$([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+  </Target>
+</Project>
